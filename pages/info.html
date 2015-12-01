@@ -1,6 +1,7 @@
 <html lang="en">
 
 <head>
+    <title>DEMDuplicate - Info</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@
 
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,8 +31,18 @@
                     <li><a href="../index.html">Home</a></li>
                     <li class="active"><a href="#">Information</a></li>
                     <li><a href="../pages/about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Models <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Meteor Crater</a></li>
+                            <li><a href="#">Valleys</a></li>
+                            <li><a href="#">Ski Slopes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Add Model +</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <!-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
@@ -42,7 +53,7 @@
                             <li><a href="#">Separated link</a></li>
                             <li><a href="#">One more separated link</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -50,7 +61,7 @@
     </nav>
     <div class="container">
         <!-- Main component for a primary marketing message or call to action -->
-        <div class="jumbotron jumbo-small">
+        <div class="jumbotron jumbotron-bg jumbo-small">
             <h1 class="jumboTitle" style="color: white">Information</h1>
             <div class="">
                 <!-- <img class="img-rounded jumboImage jumboInfo" src="../img/3dMountain.jpg" height="60%" width="80%" alt=""> -->
@@ -76,7 +87,7 @@
                     <figcaption>Here is an example of a TIN (triangular irregular network). This is an example of a DEM. Its strengths is that it is easier to render in software, it is very small is size compared to a Raster based DEM, and uses only polygons to represent the surface.</figcaption>
                 </figure>
                 <figure class="info-img">
-                    <img src="../img/info/rasterDEM.png" height="385" width="599" alt="">
+                    <img src="../img/info/rasterDEM.png" height="40%" width="90%" alt="">
                     <figcaption>This is an example of a Raster Based DEM model. As you can see, there is a significant amount of detail and data compared to the above TIN model. The reason is that Raster data is collected in a continuos motion by satellites using Light Detection And Ranging (LiDAR) onto the Earth and reading back the data and creating models such as this one. You get a lot of detail and can make out very small features. An issue with this is that these files tend to be very large, they are harder to render on slower devices, and are way more expensive to create.</figcaption>
                 </figure>
                 <figure class="info-img">

@@ -3,6 +3,10 @@ body {
     padding-top: 70px;
 }
 
+/*.navbar {
+	background-color: #3F51B5;
+}*/
+
 main p {
 	font-size: 16;
 }
@@ -26,6 +30,15 @@ main p {
 	margin-bottom: 32px;
 }
 
+.contact-section {
+	display: flex;
+	flex-direction: row;
+}
+
+.contact-right, .map {
+	padding: 16px;
+}
+
 
 
 .jumbotron {
@@ -34,8 +47,16 @@ main p {
 	justify-content: center;
 	padding: 32px;
 	height: 500px;
-	background-image: url("../img/3dMountain.jpg");
+	/*background-image: url("../img/3dMountain.jpg");*/
 	background-position: center;
+}
+
+.jumbotron-bg {
+	background-image: url("../img/3dMountain.jpg");
+}
+
+.meteor-bg {
+	background-image: url("");
 }
 
 .jumbo-small {
@@ -43,6 +64,7 @@ main p {
 }
 
 .info-img {
+	width: 500px;
 	margin: 32px auto;
 	/*border: 1px solid #7d7d7d;*/
 	border-radius: 5px;
@@ -57,7 +79,7 @@ main p {
 	margin: 0 auto;
 	padding: 60px 0;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .info-img-section img {
