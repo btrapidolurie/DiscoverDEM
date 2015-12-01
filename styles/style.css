@@ -4,7 +4,20 @@ body {
 }
 
 main p {
-	font-size: 20;
+	font-size: 16;
+}
+
+.aboutP {
+	margin: 40px 0;
+}
+
+.aboutP p {
+	font-size: 24;
+	text-align: center;
+}
+
+.aboutList {
+	font-size: 16;
 }
 
 .jumboImage {
@@ -13,19 +26,31 @@ main p {
 	margin-bottom: 32px;
 }
 
-.jumboTitle {
-	text-align: center;
-}
+
 
 .jumbotron {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 32px;
+	height: 500px;
+	background-image: url("../img/3dMountain.jpg");
+	background-position: center;
 }
+
+.jumbo-small {
+	height: 300px;
+}
+
+/*.infoTitle {
+	color: #fff;
+}*/
 
 footer {
 	background-color: #f8f8f8;
     border-color: #e7e7e7;
     bottom: 0;
-    margin: 0;
+    margin-top: 32px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #e7e7e7;
