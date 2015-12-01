@@ -2,3 +2,17 @@ body {
     /*min-height: 2000px;*/
     padding-top: 70px;
 }
+
+.jumboImage {
+	height: 70%;
+	width: 100%;
+	margin-bottom: 32px;
+}
+
+.jumboTitle {
+	text-align: center;
+}
+
+.jumbotron {
+	padding: 32px;
+}
