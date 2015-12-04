@@ -46,7 +46,7 @@ main p {
     align-items: center;
     justify-content: center;
     padding: 32px;
-    height: 500px;
+    height: 50%;
     /*background-image: url("../img/3dMountain.jpg");*/
     background-position: center;
 }
