@@ -3,103 +3,105 @@ body {
     padding-top: 70px;
 }
 
+
 /*.navbar {
 	background-color: #3F51B5;
 }*/
 
 main p {
-	font-size: 16;
+    font-size: 16;
 }
 
 .aboutP {
-	margin: 40px 0;
+    margin: 40px 0;
 }
 
 .aboutP p {
-	font-size: 24;
-	text-align: center;
+    font-size: 24;
+    text-align: center;
 }
 
 .aboutList {
-	font-size: 16;
+    font-size: 16;
 }
 
 .jumboImage {
-	height: 70%;
-	width: 100%;
-	margin-bottom: 32px;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 32px;
 }
 
 .contact-section {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
-.contact-right, .map {
-	padding: 16px;
+.contact-right,
+.map {
+    padding: 16px;
 }
 
 .jumbotron {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 32px;
-	height: 500px;
-	/*background-image: url("../img/3dMountain.jpg");*/
-	background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    height: 500px;
+    /*background-image: url("../img/3dMountain.jpg");*/
+    background-position: center;
 }
 
 .jumbotron-bg {
-	background-image: url("../img/3dMountain.jpg");
+    background-image: url("../img/3dMountain.jpg");
 }
 
 .meteor-bg {
-	background-image: url("../img/models/meteor_crater-normal.jpg");
+    background-image: url("../img/models/meteor_crater-normal.jpg");
 }
 
 .valleys-bg {
-	background-image: url("../img/models/il_piave.jpg");
+    background-image: url("../img/models/il_piave.jpg");
 }
 
 .ski-bg {
-	background-image: url("../img/models/cortina.jpg");
+    background-image: url("../img/models/cortina.jpg");
 }
 
 .jumbo-small {
-	height: 300px;
+    height: 300px;
 }
 
 .info-img {
-	width: 500px;
-	margin: 32px auto;
-	/*border: 1px solid #7d7d7d;*/
-	border-radius: 5px;
-	box-shadow: 0 2px 4px #ababab;
+    width: 500px;
+    margin: 32px auto;
+    /*border: 1px solid #7d7d7d;*/
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #ababab;
 }
 
 .info-img figcaption {
-	padding: 10px;
+    padding: 10px;
 }
 
 .info-img-section {
-	margin: 0 auto;
-	padding: 60px 0;
-	display: flex;
-	flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .info-img-section img {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.model iframe{
-	display: block;
-	margin: 0 auto;
+.model iframe {
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
-	background-color: #f8f8f8;
+    background-color: #f8f8f8;
     border-color: #e7e7e7;
     margin-top: 32px;
     padding-top: 10px;
@@ -111,7 +113,7 @@ footer {
 }
 
 footer p {
-	padding: 0;
-	margin: 0;
-	text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
