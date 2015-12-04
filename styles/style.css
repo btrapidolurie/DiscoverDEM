@@ -39,8 +39,6 @@ main p {
 	padding: 16px;
 }
 
-
-
 .jumbotron {
 	display: flex;
 	align-items: center;
@@ -56,7 +54,11 @@ main p {
 }
 
 .meteor-bg {
-	background-image: url("");
+	background-image: url("../img/models/meteor_crater-normal.jpg");
+}
+
+.valleys-bg {
+	background-image: url("../img/models/il_piave.jpg");
 }
 
 .jumbo-small {
@@ -83,6 +85,11 @@ main p {
 }
 
 .info-img-section img {
+	display: block;
+	margin: 0 auto;
+}
+
+.model iframe{
 	display: block;
 	margin: 0 auto;
 }
