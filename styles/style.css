@@ -61,6 +61,10 @@ main p {
 	background-image: url("../img/models/il_piave.jpg");
 }
 
+.ski-bg {
+	background-image: url("../img/models/cortina.jpg");
+}
+
 .jumbo-small {
 	height: 300px;
 }
