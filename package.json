@@ -1,0 +1,23 @@
+{
+  "name": "dem_capstone",
+  "version": "1.0.0",
+  "description": "DEM Models Educational Website for the Informatics Capstone Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amucinom/DEM_Capstone.git"
+  },
+  "author": "Aldo Mucino, Eiji Dougal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amucinom/DEM_Capstone/issues"
+  },
+  "homepage": "https://github.com/amucinom/DEM_Capstone#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.7.4"
+  }
+}
