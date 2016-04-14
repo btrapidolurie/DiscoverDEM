@@ -3,11 +3,6 @@ body {
     padding-top: 70px;
 }
 
-
-/*.navbar {
-	background-color: #3F51B5;
-}*/
-
 main p {
     font-size: 16;
 }
@@ -26,14 +21,18 @@ main p {
 }
 
 .jumboImage {
-    height: 70%;
     width: 100%;
+    height: 70%;
     margin-bottom: 32px;
 }
 
 .contact-section {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
 }
 
 .contact-right,
@@ -42,13 +41,18 @@ main p {
 }
 
 .jumbotron {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 32px;
     height: 500px;
-    /*background-image: url("../img/3dMountain.jpg");*/
+    padding: 32px;
     background-position: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .myBtn {
@@ -56,19 +60,19 @@ main p {
 }
 
 .jumbotron-bg {
-    background-image: url("../img/3dMountain.jpg");
+    background-image: url('../img/3dMountain.jpg');
 }
 
 .meteor-bg {
-    background-image: url("../img/models/meteor_crater-normal.jpg");
+    background-image: url('../img/models/meteor_crater-normal.jpg');
 }
 
 .valleys-bg {
-    background-image: url("../img/models/il_piave.jpg");
+    background-image: url('../img/models/il_piave.jpg');
 }
 
 .ski-bg {
-    background-image: url("../img/models/cortina.jpg");
+    background-image: url('../img/models/cortina.jpg');
 }
 
 .jumbo-small {
@@ -88,9 +92,13 @@ main p {
 }
 
 .info-img-section {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin: 0 auto;
     padding: 60px 0;
-    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -105,19 +113,19 @@ main p {
 }
 
 footer {
-	width: 100%;
-	background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     margin-top: 32px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-color: #e7e7e7;
     border-top: 1px solid #e7e7e7;
-    position: fixed;
-    bottom: 0;
+    background-color: #f8f8f8;
 }
 
 footer p {
-    padding: 0;
     margin: 0;
+    padding: 0;
     text-align: center;
 }
