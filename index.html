@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <!-- Fixed navbar -->
     <header class="navbar">
         <div class="container">
             <a href="/" class="navbar-logo">EasyDEM</a>
@@ -22,7 +21,7 @@
             </nav>
         </div>
     </header>
-    <div class="jumbotron">
+    <div class="jumbotron jumbotron-hero">
         <div class="container">
             <div class="row"></div>
             <h1>EasyDEM</h1>
@@ -30,6 +29,36 @@
         </div>
         <img class="down-arrow" src="img/Arrow.png" alt="Arrow">
     </div>
+    <main>
+        <div class="container">
+            <section>
+                <h2>What is a DEM</h2>
+                <p>A digital elevation model (DEM) is a digital model or 3D representation of a terrain's surface — commonly for a planet (including Earth), moon, or asteroid — created from terrain elevation data.</p>
+                <h2>Types of DEM</h2>
+                <p>A DEM can be represented as a raster (a grid of squares, also known as a heightmap when representing elevation) or as a vector-based triangular irregular network (TIN). Raster typed models are used more frequently, though vector models are significantly smaller in size and easier to render.</p>
+                <h2>Modern Uses</h2>
+                <p>In todays world we see a lot of uses of DEM models. Some of the most familiar uses are actually already on most smart mobile devices. When looking at applications like Apple Maps, Google Maps, Google Earth, and Bing, the 3D terrain and buildings are examples of using DEM models and information to render them 3D. Without this data, all of the applications maps would be solely flat with no 3D modeling. </p>
+            </section>
+            <section class="info-img-section">
+                <figure class="info-img">
+                    <img src="../img/info/dem1.png" height="321" width="457" alt="">
+                    <figcaption>Here is an example of a TIN (triangular irregular network). This is an example of a DEM. Its strengths is that it is easier to render in software, it is very small is size compared to a Raster based DEM, and uses only polygons to represent the surface.</figcaption>
+                </figure>
+                <figure class="info-img">
+                    <img src="../img/info/rasterDEM.png" height="40%" width="90%" alt="">
+                    <figcaption>This is an example of a Raster Based DEM model. As you can see, there is a significant amount of detail and data compared to the above TIN model. The reason is that Raster data is collected in a continuos motion by satellites using Light Detection And Ranging (LiDAR) onto the Earth and reading back the data and creating models such as this one. You get a lot of detail and can make out very small features. An issue with this is that these files tend to be very large, they are harder to render on slower devices, and are way more expensive to create.</figcaption>
+                </figure>
+                <figure class="info-img">
+                    <img src="../img/info/bwRasterDEM.png" height="394" width="416" alt="">
+                    <figcaption>This Model is a true Raster based DEM model. When these models are created, they originally look like this in Black and White. The Black is lower elevation and the White is higher elevation. It is up to the geographers to use special software and color code the different elevations to make them user friendly and easier to read.</figcaption>
+                </figure>
+                <figure class="info-img">
+                    <img src="../img/info/azRasterDEM.png" height="499" width="431" alt="">
+                    <figcaption>Here is a nice DEM of the state of Arizona. The city of Phoenix is toward the lower center of the model. If looking closely you can see South Mountain. With little added information a DEM model can tell a lot of information. You can easily see where the more mountainous and higher elevation areas are on the map, where the valleys and plateaus are, and with a closer eye, where the rivers cross the terrain.</figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
