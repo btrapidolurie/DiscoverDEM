@@ -18,6 +18,7 @@
   "homepage": "https://github.com/amucinom/DEM_Capstone#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-server-livereload": "^1.7.4"
+    "gulp-server-livereload": "^1.7.4",
+    "normalize.css": "^4.1.1"
   }
 }

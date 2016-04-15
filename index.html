@@ -1,62 +1,34 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <header class="navbar">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">DEMDuplicate</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="pages/info.html">Information</a></li>
-                    <li><a href="pages/about.html">About</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Models <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="pages/models/meteorCrater.html">Meteor Crater</a></li>
-                            <li><a href="pages/models/valleys.html">Valleys</a></li>
-                            <li><a href="pages/models/skislopes.html">Ski Slopes</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="pages/contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
+            <a href="/" class="navbar-logo">EasyDEM</a>
+            <nav class="navbar-nav">
+                <a href="/scaffolding">Docs</a>
+                <a href="/about">About</a>
+                <a href="https://github.com/primer/primer" target="_blank">GitHub</a>
+                <a href="https://github.com/primer/primer/blob/master/README.md#install" target="_blank">Install</a>
+            </nav>
         </div>
-    </nav>
-    <div class="container">
-        <!-- Main component for a primary marketing message or call to action -->
-        <div class="jumbotron jumbotron-bg">
-            <h1 class="jumboTitle" style="color: white;">DEM Capstone</h1>
-            <p>
-                <a class="btn btn-lg btn-primary myBtn" href="pages/models/meteorCrater.html" role="button">View DEM model >></a>
-            </p>
+    </header>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row"></div>
+            <h1>EasyDEM</h1>
         </div>
-    </div>
-    <!-- Placed at the end of the document so the pages load faster -->
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 </body>
 
 </html>

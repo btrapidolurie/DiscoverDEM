@@ -1,131 +1,105 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    /*min-height: 2000px;*/
-    padding-top: 70px;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
 }
 
-main p {
-    font-size: 16;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.aboutP {
-    margin: 40px 0;
+a {
+    text-decoration: none;
 }
 
-.aboutP p {
-    font-size: 24;
-    text-align: center;
+.container {
+    width: auto;
+    max-width: 1000px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
 }
 
-.aboutList {
-    font-size: 16;
+.row {
+    height: 4em;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
 }
 
-.jumboImage {
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
     width: 100%;
-    height: 70%;
-    margin-bottom: 32px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 4em;
+    margin-bottom: 1.5em;
+    text-align: left;
+    background-color: #EF5350;
 }
 
-.contact-section {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
+.navbar a {
+    color: rgba(255, 255, 255, 0.5)
 }
 
-.contact-right,
-.map {
-    padding: 16px;
+.navbar a:hover {
+    color: #fff;
+    text-decoration: none
 }
+
+.navbar .navbar-logo {
+    float: left;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff
+}
+
+.navbar .navbar-logo .mega-octicon {
+    float: left;
+    margin-right: .5rem
+}
+
+.navbar-nav {
+    float: right;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.navbar-nav a {
+    display: inline-block
+}
+
+.navbar-nav a:not(:last-child) {
+    margin-right: 1.25rem
+}
+
+.navbar-nav .active {
+    color: #fff;
+    font-weight: 500
+}
+
+/* !NAVBAR */
 
 .jumbotron {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    padding: 32px;
-    background-position: center;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    margin-bottom: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    height: 100%;
+    background-color: #EF5350;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: left
 }
 
-.myBtn {
-    margin-top: 200px;
-}
-
-.jumbotron-bg {
-    background-image: url('../img/3dMountain.jpg');
-}
-
-.meteor-bg {
-    background-image: url('../img/models/meteor_crater-normal.jpg');
-}
-
-.valleys-bg {
-    background-image: url('../img/models/il_piave.jpg');
-}
-
-.ski-bg {
-    background-image: url('../img/models/cortina.jpg');
-}
-
-.jumbo-small {
-    height: 300px;
-}
-
-.info-img {
-    width: 500px;
-    margin: 32px auto;
-    /*border: 1px solid #7d7d7d;*/
-    border-radius: 5px;
-    box-shadow: 0 2px 4px #ababab;
-}
-
-.info-img figcaption {
-    padding: 10px;
-}
-
-.info-img-section {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    padding: 60px 0;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.info-img-section img {
-    display: block;
-    margin: 0 auto;
-}
-
-.model iframe {
-    display: block;
-    margin: 0 auto;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-top: 32px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-color: #e7e7e7;
-    border-top: 1px solid #e7e7e7;
-    background-color: #f8f8f8;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
+.jumbotron h1 {
+    font-size: 2.5em;
+    font-weight: 400;
     text-align: center;
 }
