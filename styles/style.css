@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 1rem;
 }
 
@@ -11,6 +11,10 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 a {
@@ -88,18 +92,22 @@ a {
 /* !NAVBAR */
 
 .jumbotron {
-    margin-bottom: 3rem;
-    padding-top: 6rem;
-    padding-bottom: 8rem;
+    margin-bottom: 3em;
+    padding-top: 6em;
+    padding-bottom: 8em;
     height: 100%;
     background-color: #EF5350;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #fff;
-    text-align: left
+    text-align: center;
 }
 
 .jumbotron h1 {
     font-size: 2.5em;
     font-weight: 400;
-    text-align: center;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 90%;
 }
