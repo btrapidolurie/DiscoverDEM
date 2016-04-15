@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 1rem;
 }
 
@@ -13,8 +13,9 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
     color: rgb(38,43,51);
     color: rgba(38,43,51,1);
 }
@@ -52,7 +53,12 @@ a {
 }
 
 .navbar a {
-    color: rgba(255, 255, 255, 0.5)
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.active {
+    color: rgb(255, 255, 255);
 }
 
 .navbar a:hover {
@@ -61,6 +67,7 @@ a {
 }
 
 .navbar .navbar-logo {
+    font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
     float: left;
     display: inline-block;
     font-size: 1.5rem;
@@ -116,6 +123,7 @@ a {
 
 .down-arrow {
     position: absolute;
+    left: 48.75%;
     top: 90%;
     opacity: 0.5;
 }
@@ -123,7 +131,14 @@ a {
 main {
     padding-top: 4em;
     padding-bottom: 4em;
-    line-height: 1.5rem;
+    line-height: 1.5;
+}
+
+main h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    border-bottom: 1px solid #ddd;
 }
 
 .model {
