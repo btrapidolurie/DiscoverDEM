@@ -123,6 +123,7 @@ a {
 main {
     padding-top: 4em;
     padding-bottom: 4em;
+    line-height: 1.5rem;
 }
 
 .model {
