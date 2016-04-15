@@ -15,6 +15,8 @@ body {
 
 h1 {
     font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: rgb(38,43,51);
+    color: rgba(38,43,51,1);
 }
 
 a {
@@ -103,6 +105,7 @@ a {
 }
 
 .jumbotron h1 {
+    color: #f4f4f4;
     font-size: 2.5em;
     font-weight: 400;
 }
@@ -110,4 +113,5 @@ a {
 .down-arrow {
     position: absolute;
     top: 90%;
+    opacity: 0.5;
 }
