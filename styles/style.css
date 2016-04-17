@@ -79,7 +79,6 @@ a {
     display: inline;
     max-width: 48px;
     padding-right: 16px;
-    filter: blur(10px);
 }
 
 .navbar .navbar-logo .mega-octicon {
@@ -113,10 +112,8 @@ a {
 /* !NAVBAR */
 
 .jumbotron {
-    margin-bottom: 3em;
     padding-top: 6em;
     padding-bottom: 8em;
-    /*height: 100%;*/
     background-color: #458AFF;
     font-size: 1.5em;
     color: #fff;
@@ -160,3 +157,25 @@ main h1, h2, h3, h4, h5, h6 {
 .model {
     width: 100%;
 }
+/*
+figure {
+    margin: 0;
+}
+
+/* Sections */
+
+.section {
+    height: 50%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.section:nth-child(1) {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.section:nth-child(even) {
+    background-color: #262B33;
+    color: #f4f4f4;
+}*/

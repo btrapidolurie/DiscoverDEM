@@ -13,7 +13,7 @@
 <body>
     <header class="navbar">
         <div class="container">
-            <a href="index.html" class="navbar-logo"><span><img src="img/peakAlphaWhite.png" alt=""></span>EasyDEM</a>
+            <a href="index.html" class="navbar-logo"><span><img src="img/peakAlphaWhite.png" alt=""></span>DiscoverDEM</a>
             <nav class="navbar-nav">
                 <a href="pages/models/meteorCrater.html">Models</a>
                 <a href="pages/about.html">About</a>
@@ -25,22 +25,24 @@
         <div class="container">
             <div class="row"></div>
             <img class="logo" src="img/peakAlphaWhite.png" alt="">
-            <h1>EasyDEM</h1>
+            <h1>DiscoverDEM</h1>
             <p>The perfect way to learn about Digital Elevation Models</p>
         </div>
         <img class="down-arrow" src="img/Arrow.png" alt="Arrow">
     </div>
     <main>
-        <div class="container">
-            <section>
+        <section class="section">
+            <div class="container">
                 <h1>What is a DEM</h1>
                 <p>A digital elevation model (DEM) is a digital model or 3D representation of a terrain's surface — commonly for a planet (including Earth), moon, or asteroid — created from terrain elevation data.</p>
                 <h2>Types of DEM</h2>
                 <p>A DEM can be represented as a raster (a grid of squares, also known as a heightmap when representing elevation) or as a vector-based triangular irregular network (TIN). Raster typed models are used more frequently, though vector models are significantly smaller in size and easier to render.</p>
                 <h2>Modern Uses</h2>
                 <p>In todays world we see a lot of uses of DEM models. Some of the most familiar uses are actually already on most smart mobile devices. When looking at applications like Apple Maps, Google Maps, Google Earth, and Bing, the 3D terrain and buildings are examples of using DEM models and information to render them 3D. Without this data, all of the applications maps would be solely flat with no 3D modeling. </p>
-            </section>
-            <section class="info-img-section">
+            </div>
+        </section>
+        <section class="section info-img-section">
+            <div class="container">
                 <figure class="info-img">
                     <img src="img/info/dem1.png" height="321" width="457" alt="">
                     <figcaption>Here is an example of a TIN (triangular irregular network). This is an example of a DEM. Its strengths is that it is easier to render in software, it is very small is size compared to a Raster based DEM, and uses only polygons to represent the surface.</figcaption>
@@ -57,8 +59,8 @@
                     <img src="img/info/azRasterDEM.png" height="499" width="431" alt="">
                     <figcaption>Here is a nice DEM of the state of Arizona. The city of Phoenix is toward the lower center of the model. If looking closely you can see South Mountain. With little added information a DEM model can tell a lot of information. You can easily see where the more mountainous and higher elevation areas are on the map, where the valleys and plateaus are, and with a closer eye, where the rivers cross the terrain.</figcaption>
                 </figure>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="scripts/script.js"></script>

@@ -1,8 +1,7 @@
 $(document).ready(function($) {
 
-    var top = $(document).scrollTop();
-
     $(window).scroll(function() {
+    	var top = $(document).scrollTop();
         if (top > 0) {
             $('.navbar').addClass('navbar-shadow');
         } else {
