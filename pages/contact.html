@@ -23,7 +23,6 @@
             </nav>
         </div>
     </header>
-
     <div class="jumbotron">
         <!-- Main component for a primary marketing message or call to action -->
         <div class="container">
@@ -32,7 +31,7 @@
     </div>
     <div class="container">
         <main class="contact-section">
-            <div class="contact-right">
+            <!-- <div class="contact-right">
                 <h1>Contact Us</h1>
                 <p>For any questions, comments, or concerns please feel free to send us an email. We will gladly get back to you within 24 hours. Please place DEMDuplicate in the subject line for a faster response. ​
                 <p><a href="mailto:djmejia@asu.edu">djmejia@asu.edu</a></p>
@@ -43,7 +42,24 @@
             </div>
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13321.857724602407!2d-111.9343635517164!3d33.41113415846446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08db3b33540f%3A0x458faaff3d8ae98d!2sArizona+State+University!5e0!3m2!1sen!2sus!4v1449011649213" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            </div> -->
+            <form action="contact_submit" method="post" accept-charset="utf-8">
+                <div class="form-group">
+                    <!-- <label for="name">Name</label> -->
+                    <input class="form-input" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="emailAddress">Email Address</label> -->
+                    <input class="form-input" type="text" name="emailAddress" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <!-- <label for="message">Message</label> -->
+                    <textarea class="form-input" type="text" name="message" placeholder="Type your message here..." rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="button button-submit"></button>
+                </div>
+            </form>
         </main>
     </div>
 </body>
