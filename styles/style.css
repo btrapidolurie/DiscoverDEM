@@ -146,7 +146,6 @@ a {
     position: absolute;
     left: 48.75%;
     top: 90%;
-    opacity: 0.5;
 }
 
 main {
@@ -179,8 +178,8 @@ figure {
 
 .section {
     height: 50%;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .section:nth-child(1) {
@@ -230,10 +229,6 @@ label {
     font-weight: 400;
 }
 
-textarea {
-    height: auto;
-}
-
 .form-input {
     display: block;
     width: 100%;
@@ -251,6 +246,10 @@ textarea {
             transition: all .25s;
 }
 
+#message {
+    height: auto;
+}
+
 .form-input:focus {
     border-bottom: 1px solid #458AFF;
     box-shadow: 0 1px 0 0 #458AFF;
@@ -262,16 +261,15 @@ textarea {
     border: none;
     border-radius: 2px;
     color: #fff;
-    height: 3rem;
+    height: 3.5rem;
     width: 100%;
-    min-width: 64px;
-    padding: 0 16px;
-    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
     font-size: 1rem;
     font-weight: normal;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    line-height: 36px;
+    line-height: 2.2rem;
     vertical-align: middle;
 }

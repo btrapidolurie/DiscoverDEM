@@ -1,8 +1,8 @@
 function validateForm() {
     var valid = 1;
-    var $email = $('#email').text();
-    var $name = $('#name').text();
-    var $msg = $('#message').text();
+    var $email = $('#email').val();
+    var $name = $('#name').val();
+    var $msg = $('#message').val();
 
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
