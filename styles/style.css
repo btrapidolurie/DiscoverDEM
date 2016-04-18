@@ -82,8 +82,9 @@ a {
 }
 
 .navbar-logo img {
+    vertical-align: -35%;
     display: inline;
-    max-width: 48px;
+    max-width: 4rem;
     padding-right: 16px;
 }
 
@@ -138,7 +139,7 @@ a {
 }
 
 .logo {
-    width: 20%;
+    width: 30%;
 }
 
 .down-arrow {
