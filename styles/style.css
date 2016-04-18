@@ -56,7 +56,7 @@ a {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: left;
-    background-color: #458AFF;
+    background-color: #03A9F4;
 }
 
 .navbar a {
@@ -125,7 +125,7 @@ a {
     padding-bottom: 8em;
     text-align: center;
     color: #fff;
-    background-color: #458AFF;
+    background-color: #03A9F4;
 }
 
 .jumbotron-hero {
@@ -151,7 +151,6 @@ a {
 main {
     line-height: 1.5;
     padding-top: 4em;
-    padding-bottom: 4em;
 }
 
 main h1,
@@ -180,7 +179,15 @@ figure {
 .section {
     height: 50%;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+}
+
+.section img {
+    max-width: 50%;
+}
+
+.section figcaption {
+    padding: 2rem;
 }
 
 .section:nth-child(1) {
@@ -189,8 +196,20 @@ figure {
 }
 
 .section:nth-child(even) {
-    color: #f4f4f4;
-    background-color: #262b33;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.section:nth-child(even) figcaption {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+
+.section:nth-child(odd) figcaption {
+    display: inline-block;
+    width: 50%;
+    float: left;
 }
 
 
@@ -272,5 +291,5 @@ label {
     color: #fff;
     border: none;
     border-radius: 2px;
-    background: rgb(242, 79, 19);
+    background: #2EFFB8;
 }
