@@ -55,7 +55,7 @@ a {
     height: 4em;
     margin-bottom: 1.5em;
     text-align: left;
-    background-color: #458AFF;
+    background-color: #03A9F4;
     z-index: 999;
 }
 
@@ -70,7 +70,7 @@ a {
 
 .navbar a:hover {
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .navbar .navbar-logo {
@@ -78,7 +78,7 @@ a {
     float: left;
     display: inline-block;
     font-size: 1.5rem;
-    color: #fff
+    color: #fff;
 }
 
 .navbar-logo img {
@@ -90,7 +90,7 @@ a {
 
 .navbar .navbar-logo .mega-octicon {
     float: left;
-    margin-right: .5rem
+    margin-right: .5rem;
 }
 
 .navbar-nav {
@@ -104,7 +104,7 @@ a {
 }
 
 .navbar-nav a:not(:last-child) {
-    margin-right: 1.25rem
+    margin-right: 1.25rem;
 }
 
 .navbar-nav .active {
@@ -122,7 +122,7 @@ a {
 .jumbotron {
     padding-top: 6em;
     padding-bottom: 8em;
-    background-color: #458AFF;
+    background-color: #03A9F4;
     font-size: 1.5em;
     color: #fff;
     text-align: center;
@@ -173,6 +173,7 @@ h6 {
 figure {
     margin: 0;
 }
+
 
 /* Sections */
 
@@ -240,10 +241,10 @@ label {
     border: none;
     border-bottom: 1px solid #ccc;
     -webkit-transition: all .25s;
-       -moz-transition: all .25s;
-        -ms-transition: all .25s;
-         -o-transition: all .25s;
-            transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
 }
 
 #message {
@@ -257,7 +258,7 @@ label {
 
 .button {
     display: inline-block;
-    background: rgb(242,79,19);
+    background: rgb(242, 79, 19);
     border: none;
     border-radius: 2px;
     color: #fff;
