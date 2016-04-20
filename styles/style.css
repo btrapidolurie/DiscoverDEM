@@ -299,6 +299,7 @@ label {
 }
 
 iframe {
+    border: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
