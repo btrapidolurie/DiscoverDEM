@@ -3,10 +3,9 @@ var server = require('gulp-server-livereload');
 
 gulp.task('server', function() {
     gulp.src('.')
-    	.pipe(server({
+    	.pipe(serve({
     		livereload: true,
     		directoryListing: false,
     		open: true,
     	}));
 });
-
