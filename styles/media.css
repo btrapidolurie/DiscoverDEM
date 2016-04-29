@@ -164,6 +164,7 @@
     }
     .form {
         width: calc(100% - 4rem);
+        margin-top: 1rem;
         margin-right: auto;
         margin-left: auto;
     }

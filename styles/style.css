@@ -354,3 +354,12 @@ iframe {
 .tuts-ol {
     line-height: 1.75;
 }
+
+footer {
+    background: #333;
+    color: #f4f4f4;
+    display: block;
+    width: 100%;
+    padding: 2rem 1rem;
+    text-align: center;
+}
