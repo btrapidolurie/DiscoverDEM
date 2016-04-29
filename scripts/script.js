@@ -4,11 +4,11 @@ $(document).ready(function($) {
         // $(window).resize(function() {
             if ($(window).width() < 481) {
                 var top = $(document).scrollTop();
-                if (top > 0) {
+                if (top > 375) {
                     $('.navbar-logo').css('display', 'none');
                     $('.navbar').css({
                     	'padding-top': '0',
-                    	'transition': 'all 0.25s'
+                    	'transition': 'all 0.5s'
                     });
                     $('.navbar-nav').css('border', 'none');
                 }
