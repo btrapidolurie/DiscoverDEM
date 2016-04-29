@@ -27,6 +27,11 @@
     .navbar-logo span {
         display: none;
     }
+
+    .navbar-logo img {
+        padding-right: 0;
+    }
+
     .navbar .navbar-logo {
         display: inline-block;
         font-size: 1.5rem;
