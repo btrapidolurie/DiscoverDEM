@@ -1,47 +1,51 @@
-function validateForm() {
-    var valid = 1;
-    var $email = $('#email').val();
-    var $name = $('#name').val();
-    var $msg = $('#message').val();
+$(function() {
 
-    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    // Get the form.
+    var form = $('#form');
 
-    if (name.value === "") {
-        valid = 0;
-        name_validation.innerHTML = "Field Required";
-        name_validation.style.display = "block";
-        name_validation.parentNode.style.backgroundColor = "#FFDFDF";
-    }
+    // Get the messages div.
+    var formMessages = $('#form-messages');
 
-    if (message.value === "") {
-        valid = 0;
-        message_validation.innerHTML = "Field Required";
-        message_validation.style.display = "block";
-        message_validation.parentNode.style.backgroundColor = "#FFDFDF";
-    } else {
-        message_validation.style.display = "none";
-        message_validation.parentNode.style.backgroundColor = "transparent";
-    }
+    // Set up an event listener for the contact form.
+    $(form).submit(function(e) {
+        // Stop the browser from submitting the form.
+        e.preventDefault();
 
-    if (email.value === "") {
-        valid = 0;
-        email_validation.innerHTML = "Field Required";
-        email_validation.style.display = "block";
-        email_validation.parentNode.style.backgroundColor = "#FFDFDF";
-    } else {
-        email_validation.style.display = "none";
-        email_validation.parentNode.style.backgroundColor = "transparent";
-    }
+        // Serialize the form data.
+        var formData = $(form).serialize();
 
-    if (!filter.test(email.value)) {
-        valid = 0;
-        email_validation.innerHTML = "Invalid email address";
-        email_validation.style.display = "block";
-        email_validation.parentNode.style.backgroundColor = "#FFDFDF";
-    } else {
-        email_validation.style.display = "none";
-        email_validation.parentNode.style.backgroundColor = "transparent";
-    }
-    if (!valid)
-        return false;
-}
+        // Submit the form using AJAX.
+        $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+        })
+        .done(function(response) {
+            // Make sure that the formMessages div has the 'success' class.
+            $(formMessages).removeClass('error');
+            $(formMessages).addClass('success');
+
+            // Set the message text.
+            $(formMessages).text(response);
+
+            // Clear the form.
+            $('#name').val('');
+            $('#email').val('');
+            $('#message').val('');
+        })
+        .fail(function(data) {
+            // Make sure that the formMessages div has the 'error' class.
+            $(formMessages).removeClass('success');
+            $(formMessages).addClass('error');
+
+            // Set the message text.
+            if (data.responseText !== '') {
+                $(formMessages).text(data.responseText);
+            } else {
+                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+            }
+        });
+
+    });
+
+});
