@@ -19,10 +19,26 @@
     }
 
     p {
-        width: 50%;
+        width: 70%;
         font-size: 1em;
         display: inline-block;
-        /* padding-left: 1rem; */
+        padding-left: 1rem;
+    }
+
+    .p-centered {
+        width: calc(100% - 32px);
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .tuts-ol {
+        line-height: 2;
+        padding-right: 2rem;
+    }
+
+    .tuts h1 {
+        text-align: left;
     }
 
     .container {
@@ -173,6 +189,10 @@
         width: calc(100% - 4rem);
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .p-sim, .btn-sim {
+        display: none !important;
     }
 
 }

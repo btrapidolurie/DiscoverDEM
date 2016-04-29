@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>DiscoverDEM - Tutorial</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/media.css">
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="../index.html" class="navbar-logo"><img src="../img/DD_transparent.png" alt="Site Logo"><span>DiscoverDEM</span></a>
+            <nav class="navbar-nav">
+                <a href="models/models.html">Models</a>
+                <a class="active" href="about.html">Tutorial</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="jumbotron jumbotron-small">
+        <div class="container">
+            <h1 style="color: white;">Make your own DEM Model</h1>
+        </div>
+    </div>
+    <main class="tuts">
+        <div class="container">
+            <h1>Items Needed:</h1>
+            <ol class="tuts-ol">
+                <li>Height Maps or RAW files</li>
+                <li>Unity Game Engine v5.3.4+</li>
+                <li>Model Renderer</li>
+            </ol>
+            <h1>Steps:</h1>
+            <ol class="tuts-ol">
+                <li>The first thing you need to do is have some sort of height maps and or Raw Files. Height maps are black and white gray scale photos of terrain. A great place to export some is <a href="http://terrain.party">terrain.party</a> which uses USGS Shaded Relief to generate the terrain.</li>
+                <li>
+                    Once you have exported the desired terrain you then will have a folder where you will want to choose the image that ends with “(Merged)” which combines the other images to the perfect balance.
+                    <ul>
+                        <li>Photoshop or another photo editing software will work. In Photoshop import the desired height map or relief map and simply open it, if it looks correct then go to Save As and save as a Photoshop Raw Format.</li>
+                    </ul>
+                </li>
+                <li>
+                    Now that you have a readable file, you are going to use Unity to create the terrain and render it.
+                    <ul>
+                        <li>Unity is the simplest to use as it is free, has the correct export function, and allows the user to edit the features and make them as realistic as they please. <a href="https://unity3d.com/get-unity">Get Unity here!</a></li>
+                        <li>Create a terrain object, click on the gear icon with the terrain object selected, click on import Raw.., Find your Raw file, choose between the Windows or Mac Option VERY CRITICAL, if the terrain is rendered wrong then choose the other option, Make sure to select FLIP.</li>
+                        <li>The X and Z are for how large to render the terrain, I use 200 and 200. The important axis is Y which will determine the height.</li>
+                        <li>For the Y axis you would most likely use 25-35 for the best results. If the terrain looks weird or not as in depth, then play with this number.</li>
+                        <li>Again in the gear icon under Pixel Density, lower it to 1 for the most detail.</li>
+                        <li>At this point discover how to use unity to edit the terrain, add textures if desired, add a water plane, smooth the terrain, have fun with it.</li>
+                    </ul>
+                </li>
+                <li>Rendering Software: I simply use Sketchfab, https://sketchfab.com which Is a website where you can upload models and it generates a user interactable 3D rendering of the model which can be embedded to any other site. Also there is a direct Export add on asset for <a href="https://sketchfab.com/exporters/unity">“Unity-&gt;Sketchfab”</a>. Download the asset and click on Import. To make sure you have it, in Unity click on WINDOW and you will see the option “Export Selection to Sketchfab”.</li>
+                <li>These are all the steps to find your own data, import and edit in unity, and share it using a rendering software. In general have fun with it and even use the terrain for creating a game in unity!</li>
+            </ol>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>

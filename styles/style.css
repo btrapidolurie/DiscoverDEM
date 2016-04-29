@@ -28,6 +28,7 @@ h6 {
 
 a {
     text-decoration: none;
+    color: #1A75D1;
 }
 
 .container {
@@ -296,7 +297,7 @@ label {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    min-width: 100%;
+    width: 100%;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
@@ -307,6 +308,10 @@ label {
     border: none;
     color: #fff;
     background-color: #E61A54;
+}
+
+.btn-sim {
+    width: 150px;
 }
 
 iframe {
@@ -344,4 +349,8 @@ iframe {
 
 .contact-section {
     padding-top: 0;
+}
+
+.tuts-ol {
+    line-height: 1.75;
 }
