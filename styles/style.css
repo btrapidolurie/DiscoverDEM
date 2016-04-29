@@ -31,7 +31,7 @@ a {
 }
 
 .container {
-    width: 980px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -245,9 +245,10 @@ button:focus {
 }
 
 .form {
-    max-width: 50%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 5rem;
 }
 
 .form-group {
@@ -288,11 +289,13 @@ label {
 }
 
 .button {
-    display: inline-block;
+    display: block;
     padding: 0.75rem 1.5rem;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
-    width: auto;
+    min-width: 100%;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
@@ -300,6 +303,7 @@ label {
     cursor: pointer;
     background-image: none;
     border-radius: 4px;
+    border: none;
     color: #fff;
     background-color: #E61A54;
 }
@@ -315,4 +319,25 @@ iframe {
     width: 1200px;
     height: 800px;
     margin-bottom: 5rem;
+}
+
+.sponsor {
+    padding-bottom: 5rem;
+}
+
+.sponsor p {
+    width: calc(100% - 30%);
+    /* display: inline-block; */
+    float: left;
+}
+
+.sponsor img {
+    /* display: inline-block; */
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+}
+
+.sponsor ul {
+    display: inline-block;
 }

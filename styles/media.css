@@ -17,19 +17,23 @@
         margin-bottom: 0;
         /* padding-left: 1rem; */
     }
+
     p {
         width: 50%;
         font-size: 1em;
         display: inline-block;
         /* padding-left: 1rem; */
     }
+
     .container {
         padding: 0;
     }
+
     .navbar {
         height: auto;
         text-align: center;
     }
+
     .navbar-logo span {
         display: none;
     }
@@ -43,12 +47,14 @@
         font-size: 1.5rem;
         float: none;
     }
+
     .navbar-nav {
         padding-top: 1rem;
         border-top: 0.075rem solid rgba(255, 255, 255, 0.25);
         float: none;
         display: block;
     }
+
     .jumbotron {
         height: auto;
         margin-bottom: 3rem;
@@ -58,14 +64,17 @@
         color: #fff;
         text-align: center;
     }
+
     .jumbotron-hero {
         height: auto;
     }
+
     .jumbotron-small {
         padding-top: 10rem;
         margin-left: auto;
         margin-right: auto;
     }
+
     .jumbotron h1 {
         display: block;
         font-size: 1.5em;
@@ -79,42 +88,81 @@
         margin-right: auto;
         margin-left: auto;
     }
+
     .logo {
         display: block;
         margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
     }
+
     main img {
         display: none;
     }
+
     .section {
         margin: 0;
         padding-left: 1em;
         padding-right: 1em;
     }
+
     .section iframe {
         width: 100%;
     }
+
     .section figcaption {
         padding-left: 1rem;
         padding-right: 0;
     }
+
     .section:nth-child(1) {
         margin: 0;
     }
+
     .section:nth-child(even) {
         color: #333;
         background-color: #f4f4f4;
     }
+
     .section:nth-child(even) figcaption {
         display: inline-block;
         width: 50%;
         float: none;
     }
+
     .section:nth-child(odd) figcaption {
         display: inline-block;
         width: 50%;
         float: none;
     }
+
+    .sponsor {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+
+    }
+
+    .sponsor p, h1 {
+        display: block;
+        width: calc(100% - 1rem);
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .sponsor img {
+        width: calc(100% - 4rem);
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sponsor img, h1 {
+        float: none;
+    }
+
+    .form {
+        width: calc(100% - 4rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
