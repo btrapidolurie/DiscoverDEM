@@ -245,6 +245,7 @@ button:focus {
 }
 
 .form {
+    width: 70%;
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -322,22 +323,25 @@ iframe {
 }
 
 .sponsor {
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 .sponsor p {
     width: calc(100% - 30%);
-    /* display: inline-block; */
     float: left;
 }
 
 .sponsor img {
-    /* display: inline-block; */
     width: 25%;
-    border-radius: 100%;
+    border-radius: 300px;
     float: right;
 }
 
 .sponsor ul {
     display: inline-block;
+}
+
+.contact-section {
+    padding-top: 0;
 }
