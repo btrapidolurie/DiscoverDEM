@@ -1,6 +1,11 @@
 /* iPhone */
 
 @media screen and (max-width: 480px) {
+
+    body {
+        font-size: 16px;
+    }
+
     h1,
     h2,
     h3,
@@ -82,13 +87,20 @@
     main img {
         display: none;
     }
+    .section {
+        margin: 0;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .section iframe {
+        width: 100%;
+    }
     .section figcaption {
         padding-left: 1rem;
         padding-right: 0;
     }
     .section:nth-child(1) {
-        margin-top: 0;
-        padding: 0;
+        margin: 0;
     }
     .section:nth-child(even) {
         color: #333;
