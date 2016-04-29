@@ -4,7 +4,7 @@ $(document).ready(function($) {
         // $(window).resize(function() {
             if ($(window).width() < 481) {
                 var top = $(document).scrollTop();
-                if (top > 375) {
+                if (top > 100) {
                     $('.navbar-logo').css('display', 'none');
                     $('.navbar').css({
                     	'padding-top': '0',
