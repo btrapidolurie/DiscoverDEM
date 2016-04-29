@@ -9,13 +9,13 @@
     h6 {
         margin-top: 0;
         margin-bottom: 0;
-        padding-left: 1rem;
+        /* padding-left: 1rem; */
     }
     p {
         width: 50%;
         font-size: 1em;
         display: inline-block;
-        padding-left: 1rem;
+        /* padding-left: 1rem; */
     }
     .container {
         padding: 0;
