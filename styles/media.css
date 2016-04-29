@@ -1,0 +1,88 @@
+/* iPhone */
+
+@media screen and (max-width: 480px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 1rem;
+    }
+    p {
+        width: 50%;
+        font-size: 1em;
+        display: inline-block;
+        padding-left: 1rem;
+    }
+    .container {
+        padding: 0;
+    }
+    .navbar {
+        height: auto;
+        text-align: center;
+    }
+    .navbar-logo span {
+        display: none;
+    }
+    .navbar .navbar-logo {
+        display: inline-block;
+        font-size: 1.5rem;
+        float: none;
+    }
+    .navbar-nav {
+        padding-top: 1rem;
+        border-top: 0.075rem solid rgba(255, 255, 255, 0.25);
+        float: none;
+        display: block;
+    }
+    .jumbotron {
+        margin-bottom: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        font-size: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+    .jumbotron-hero {
+        height: auto;
+    }
+    .jumbotron h1 {
+        display: inline-block;
+        font-size: 1.5em;
+        width: auto;
+    }
+    .logo {
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main img {
+        display: none;
+    }
+    .section figcaption {
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+    .section:nth-child(1) {
+        margin-top: 0;
+        padding: 0;
+    }
+    .section:nth-child(even) {
+        color: #333;
+        background-color: #f4f4f4;
+    }
+    .section:nth-child(even) figcaption {
+        display: inline-block;
+        width: 50%;
+        float: none;
+    }
+    .section:nth-child(odd) figcaption {
+        display: inline-block;
+        width: 50%;
+        float: none;
+    }
+}

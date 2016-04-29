@@ -31,9 +31,14 @@ a {
 }
 
 .container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
     width: auto;
     max-width: 1000px;
-    margin: 0 auto;
     padding-right: 1.5em;
     padding-left: 1.5em;
 }
@@ -193,7 +198,8 @@ figure {
 }
 
 .section figcaption {
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .section:nth-child(1) {

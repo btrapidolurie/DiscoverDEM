@@ -1,7 +1,7 @@
 var gulp = require('gulp');
-var server = require('gulp-server-livereload');
+var serve = require('gulp-server-livereload');
 
-gulp.task('server', function() {
+gulp.task('serve', function() {
     gulp.src('.')
     	.pipe(serve({
     		livereload: true,
