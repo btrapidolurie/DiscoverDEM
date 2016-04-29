@@ -44,6 +44,7 @@
         display: block;
     }
     .jumbotron {
+        height: auto;
         margin-bottom: 3rem;
         padding-top: 2rem;
         padding-bottom: 4rem;
@@ -54,10 +55,23 @@
     .jumbotron-hero {
         height: auto;
     }
+    .jumbotron-small {
+        padding-top: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .jumbotron h1 {
-        display: inline-block;
+        display: block;
         font-size: 1.5em;
         width: auto;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+        display: block;
+        margin-top: 1em;
+        margin-right: auto;
+        margin-left: auto;
     }
     .logo {
         display: block;
